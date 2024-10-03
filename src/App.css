@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* PasswordMaker.css */
+.password-generator-card {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .range-input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .option-checkboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .option-checkboxes label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .generate-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .generate-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .password-output {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .password {
+    font-family: monospace;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .password-strength {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .password-strength.weak {
+    color: red;
+  }
+  
+  .password-strength.medium {
+    color: orange;
+  }
+  
+  .password-strength.strong {
+    color: green;
+  }
+  
+  .copy-btn {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .copy-btn:hover {
+    background-color: #1e87d4;
+  }
+  
+  .copy-btn i {
+    margin-right: 5px;
+  }
+  
+  h4 {
+    font-size: 18px;
+    color: #666;
+  }
+  
